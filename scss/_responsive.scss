@@ -81,20 +81,9 @@
   }
 
   .main .contact {
-    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     align-content: center;
   }
 
-  .contact .contact__map {
-    margin-left: 2rem;
-
-    iframe {
-      width: 30rem;
-    }
-  }
-}
-
-@include media-xl {
 }

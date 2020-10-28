@@ -1,76 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Creative Unicorn Portfolio</title>
-    <!-- css -->
-    <link rel="stylesheet" href="dist/css/main.css" />
-    <!-- google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Yeseva+One&family=Merriweather&display=swap"
-      rel="stylesheet"
-    />
-    <!-- fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/effcc88c36.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header>
-      <h1 class="header-title">Creative Unicorn</h1>
-      <div class="menu-btn">
-        <div class="menu-btn__icon">
-          <i class="fas fa-ellipsis-v"></i>
-        </div>
-      </div>
-      <nav class="nav">
-        <ul class="menu-nav">
-          <li class="menu-nav__item homelink">
-            <a class="menu-nav__link">Home</a>
-          </li>
-          <li class="menu-nav__item">
-            <a class="menu-nav__link aboutlink">About us</a>
-          </li>
-          <li class="menu-nav__item">
-            <a class="menu-nav__link projectslink">Our projects</a>
-          </li>
-          <li class="menu-nav__item">
-            <a class="menu-nav__link contactlink">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main data-router-outlet class="main">
-      <section class="home">
-        <div class="home__header">
-          <h2 class="home__header--title">
-            <span class="span1">creative design</span>
-            <span class="span2">
-              <span class="artwork">artwork</span>
 
-              <span class="and">&amp;</span>
-            </span>
-            <span class="span3">photography</span>
-          </h2>
-          <h2 class="home__header--subtitle">
-            inspired by the mystery of unicorns
-          </h2>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <p class="footer__copyright">&copy; Copyright 2020</p>
-      <p class="footer__link">
-        <a class="footer__link--link" href="http://unicorn-dev.pl/portfolio"
-          >More unicorn projects</a
-        >
-      </p>
-    </footer>
-    <!-- js -->
-    <script type="module" src="dist/js/index.js"></script>
-    <script type="module" src="dist/js/routes.js"></script>
-    <script type="module" src="dist/js/router.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Unicorn Portfolio</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../../dist/css/main.css" />
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Yeseva+One&family=Merriweather&display=swap"
+    rel="stylesheet" />
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/effcc88c36.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="header-title">Creative Unicorn</h1>
+    <div class="menu-btn">
+      <div class="menu-btn__icon">
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </div>
+    <nav class="nav">
+      <ul class="menu-nav">
+        <li class="menu-nav__item homelink">
+          <a class="menu-nav__link" href="index.html">Home</a>
+        </li>
+        <li class="menu-nav__item">
+          <a class="menu-nav__link aboutlink" href="about.html">About us</a>
+        </li>
+        <li class="menu-nav__item">
+          <a class="menu-nav__link projectslink" href="projects.html">Our projects</a>
+        </li>
+        <li class="menu-nav__item">
+          <a class="menu-nav__link contactlink" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main data-router-outlet class="main">
+    <section class="home">
+      <div class="home__header">
+        <h2 class="home__header--title">
+          <span class="span1">creative design</span>
+          <span class="span2">
+            <span class="artwork">artwork</span>
+
+            <span class="and">&amp;</span>
+          </span>
+          <span class="span3">photography</span>
+        </h2>
+        <h2 class="home__header--subtitle">
+          inspired by the mystery of unicorns
+        </h2>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">&copy; Copyright 2020</p>
+    <p class="footer__link">
+      <a class="footer__link--link" target="_blank" href="https://unicorn-dev.pl">More unicorn projects</a>
+    </p>
+  </footer>
+  <!-- js -->
+  <script type="module" src="./js/index.js"></script>
+</body>
+
 </html>

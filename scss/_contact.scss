@@ -3,12 +3,12 @@
   height: 100vh;
   padding-top: 5rem;
   display: flex;
-  flex-flow: column wrap;
   align-content: center;
   align-items: center;
   justify-items: center;
-  background-image: linear-gradient(to bottom, #909090e3, #000000a2),
-    url(/dist/photos/background.jpg);
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #909090f6, #000000de),
+    url(https://unicorn-dev.pl/creativeUnicorn/photos/background.jpg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -24,11 +24,21 @@
 
   &__info {
     margin: 1rem 0;
-    background-color: rgba(255, 255, 255, 0.486);
+    background-image: url(https://unicorn-dev.pl/creativeUnicorn/photos/frame.png);
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 14px;
+    background-position: center;
+    background-size: contain;
     padding: 0.5rem;
     font-size: 1rem;
     line-height: 30px;
+    height: 14rem;
+    width: 22rem;
     font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     i {
       color: #000000ce;
@@ -40,9 +50,5 @@
       display: flex;
       align-items: center;
     }
-  }
-
-  &__map {
-    @include animation("renderBackground 2s");
   }
 }

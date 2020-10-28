@@ -128,8 +128,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff31), to(#ffffff41)), url(/dist/photos/home_image.jpg);
-  background-image: linear-gradient(to bottom, #ffffff31, #ffffff41), url(/dist/photos/home_image.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff31), to(#ffffff41)), url(https://unicorn-dev.pl/creativeUnicorn/photos/home_image.jpg);
+  background-image: linear-gradient(to bottom, #ffffff31, #ffffff41), url(https://unicorn-dev.pl/creativeUnicorn/photos/home_image.jpg);
   background-size: cover;
   background-position: left;
   -webkit-animation: renderBackground 1s;
@@ -220,8 +220,8 @@
 .about {
   width: 100vw;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#909090e3), to(#000000a2)), url(/dist/photos/background.jpg);
-  background-image: linear-gradient(to bottom, #909090e3, #000000a2), url(/dist/photos/background.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#909090ef), to(#000000c5)), url(https://unicorn-dev.pl/creativeUnicorn/photos/background.jpg);
+  background-image: linear-gradient(to bottom, #909090ef, #000000c5), url(https://unicorn-dev.pl/creativeUnicorn/photos/background.jpg);
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -266,15 +266,15 @@
 }
 
 .about-cards__card.one {
-  background-image: url(/dist/photos/about_Sofia.jpg);
+  background-image: url(https://unicorn-dev.pl/creativeUnicorn/photos/about_Sofia.jpg);
 }
 
 .about-cards__card.two {
-  background-image: url(/dist/photos/about_Maria.jpg);
+  background-image: url(https://unicorn-dev.pl/creativeUnicorn/photos/about_Maria.jpg);
 }
 
 .about-cards__card.three {
-  background-image: url(/dist/photos/about_Angelina.jpg);
+  background-image: url(https://unicorn-dev.pl/creativeUnicorn/photos/about_Angelina.jpg);
 }
 
 .about-cards__card--info {
@@ -335,7 +335,7 @@
 }
 
 .about-cards__card--info .social_icons i:hover {
-  color: #a58c1c;
+  color: #b4901c;
 }
 
 .about-cards__card--info.open {
@@ -357,8 +357,8 @@
   overflow-y: auto;
   padding-top: 6rem;
   padding-bottom: 3rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#909090e3), to(#000000a2)), url(/dist/photos/background.jpg);
-  background-image: linear-gradient(to bottom, #909090e3, #000000a2), url(/dist/photos/background.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#909090ef), to(#000000cc)), url(https://unicorn-dev.pl/creativeUnicorn/photos/background.jpg);
+  background-image: linear-gradient(to bottom, #909090ef, #000000cc), url(https://unicorn-dev.pl/creativeUnicorn/photos/background.jpg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -444,13 +444,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.projects__project:hover ~ .projects__project {
-  position: relative;
-  top: 80px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
 .projects__project:hover .projects__project--overlay {
   opacity: 1;
 }
@@ -462,18 +455,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#909090e3), to(#000000a2)), url(/dist/photos/background.jpg);
-  background-image: linear-gradient(to bottom, #909090e3, #000000a2), url(/dist/photos/background.jpg);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#909090f6), to(#000000de)), url(https://unicorn-dev.pl/creativeUnicorn/photos/background.jpg);
+  background-image: linear-gradient(to bottom, #909090f6, #000000de), url(https://unicorn-dev.pl/creativeUnicorn/photos/background.jpg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -491,11 +483,30 @@
 
 .contact__info {
   margin: 1rem 0;
-  background-color: rgba(255, 255, 255, 0.486);
+  background-image: url(https://unicorn-dev.pl/creativeUnicorn/photos/frame.png);
+  background-color: rgba(0, 0, 0, 0.274);
+  border-radius: 14px;
+  background-position: center;
+  background-size: contain;
   padding: 0.5rem;
   font-size: 1rem;
   line-height: 30px;
+  height: 14rem;
+  width: 22rem;
   font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact__info i {
@@ -511,11 +522,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.contact__map {
-  -webkit-animation: renderBackground 2s;
-  animation: renderBackground 2s;
 }
 
 @media screen and (min-width: 500px) {
@@ -596,10 +602,6 @@
     font-size: 2.2rem;
   }
   .main .contact {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -608,12 +610,6 @@
             justify-content: center;
     -ms-flex-line-pack: center;
         align-content: center;
-  }
-  .contact .contact__map {
-    margin-left: 2rem;
-  }
-  .contact .contact__map iframe {
-    width: 30rem;
   }
 }
 
@@ -723,7 +719,7 @@ header {
 }
 
 .nav .menu-nav__item.active > a {
-  color: #a58c1c;
+  color: #b4901c;
 }
 
 .nav .menu-nav__link {
@@ -740,7 +736,7 @@ header {
 }
 
 .nav .menu-nav__link:hover {
-  color: #a58c1c;
+  color: #b4901c;
   opacity: 1;
 }
 
@@ -796,6 +792,6 @@ header {
 }
 
 .footer__link--link:hover {
-  color: #a58c1c;
+  color: #b4901c;
 }
 /*# sourceMappingURL=main.css.map */

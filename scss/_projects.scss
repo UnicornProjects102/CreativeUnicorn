@@ -7,8 +7,8 @@
   overflow-y: auto;
   padding-top: 6rem;
   padding-bottom: 3rem;
-  background-image: linear-gradient(to bottom, #909090e3, #000000a2),
-    url(/dist/photos/background.jpg);
+  background-image: linear-gradient(to bottom, #909090ef, #000000cc),
+    url(https://unicorn-dev.pl/creativeUnicorn/photos/background.jpg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -78,12 +78,6 @@
 
     &:hover {
       transform: translateY(-20px);
-      @include transition-ease;
-    }
-
-    &:hover ~ & {
-      position: relative;
-      top: 80px;
       @include transition-ease;
     }
 
